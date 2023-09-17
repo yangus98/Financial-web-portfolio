@@ -207,4 +207,67 @@ a:hover{
     padding-top: 10px
 }
 
+@media (max-width: 768px) {
+    .home-container{
+        display: block;
+    }
+
+    .jumbo-title{
+        margin-top: 67rem;
+    }
+
+    nav{
+        font-size: 12px;
+        margin:0;
+    }
+
+    .menu-voices{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-block{
+        width: 97px;
+        padding:0;
+        margin:0;
+        text-align: center;
+    }
+
+    .logo{
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 821px) {
+    .home-container{
+        display: block;
+    }
+
+    .jumbo-title{
+        margin-top: 29rem;
+    }
+
+    nav{
+        font-size: 20px;
+        margin:0;
+    }
+
+    .menu-block{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .menu-voices{
+        display: flex;
+        align-items: center;
+    }
+
+    .main-image{
+        text-align: center;
+    }
+
+    .logo{
+        align-items: center;
+    }
+}
 
