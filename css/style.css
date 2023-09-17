@@ -8,7 +8,7 @@ nav{
     background: white;
     width:99%;
     font-size: 25px;
-    background: #D3CDD7;
+    background: #EAEDE1;
     border-bottom: solid 1px black;
 }
 
@@ -55,11 +55,11 @@ body{
     padding:0.5rem;
     font-size: 16px;
     text-align: justify;
-    background-color: #D3CDD7;
+    background-color: #EAEDE1;
 }
 
 .personal-info{
-    border: solid #D3CDD7;
+    border: solid #EAEDE1;
     border-radius: 10px;
     padding:0.5rem;
     font-size: 16px;
@@ -104,7 +104,7 @@ body{
 }
 
 .manual-btn{
-    border: 2px solid #D3CDD7;
+    border: 2px solid E4E6DC;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -116,7 +116,7 @@ body{
 }
 
 .manual-btn:hover{
-    background: #D3CDD7;
+    background: #EAEDE1;
 }
 
 #radio1:checked ~ .first{
@@ -178,7 +178,7 @@ body{
 }
 
 .present{
-    background: #D3CDD7;
+    background: #EAEDE1;
     border-radius: 10px;
     padding: 0.5rem;
 }
