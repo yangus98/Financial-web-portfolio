@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/JS/app.js"></script>
     <title>Web Portfolio di Raffaele Matacena</title>
     <link
       href="https://fonts.cdnfonts.com/css/libertinus-mono"
@@ -29,42 +30,20 @@
       </span>
     </nav>
 
-    <div class="slider">
-      <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1" />
-        <input type="radio" name="radio-btn" id="radio2" />
-        <input type="radio" name="radio-btn" id="radio3" />
-        <input type="radio" name="radio-btn" id="radio4" />
-
-        <div class="slide first">
-          <img src="/assets/01-Remo-Lanzoni-Panorama-dal-Passo-Giau.jpg" />
-        </div>
-        <div class="slide">
-          <img src="/assets/paesaggio_rurale.jpg" />
-        </div>
-        <div class="slide">
-          <img
-            src="/assets/sunset-lake-landscape-illustration-free-vector.jpg"
-          />
-        </div>
-        <div class="slide">
-          <img src="/assets/promuoviamo-paesaggio-italiano.jpg" />
-        </div>
-
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-        </div>
+    <div id="slider">
+      <div class="mov-btn">
+        <button onclick="prec()"><</button>
+        <button onclick="succ()">></button>
       </div>
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
+
+      <div id="img_slider">
+          <img src="/assets/01-Remo-Lanzoni-Panorama-dal-Passo-Giau.jpg">
+          <img src="/assets/sunset-lake-landscape-illustration-free-vector.jpg">
+          <img src="/assets/paesaggio_rurale.jpg">
+          <img src="/assets/promuoviamo-paesaggio-italiano.jpg">
       </div>
-    </div>
+      
+  </div>
 
     <div class="jumbo-text">
       <div class="jumbo-name">Raffaele Matacena</div>
