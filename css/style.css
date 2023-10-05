@@ -89,8 +89,8 @@ nav{
     display:block;
 }
 #slider button{
-    width:50px;
-    height:50px;
+    width: 40px;
+    height: 40px;
     border:solid #E4E6DC 2px;
     outline:none;
     color: #E4E6DC;
@@ -108,6 +108,12 @@ nav{
     width:90%;
     display: flex;
     justify-content: space-between;
+}
+
+.mov-btn button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 #slider button:hover{
