@@ -71,6 +71,14 @@ nav{
     box-shadow: 6px 7px 14px -8px black;
 }
 
+#jumbo-category-esperienze{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono NL', sans-serif;
+    margin-top: 15rem;
+}
+
 #slider{
     width:100%;
     display: flex;
@@ -123,6 +131,14 @@ nav{
     transform:scale(0.95);
 }
 
+button:hover{
+    transform:scale(1.05);
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
 .jumbo-text{
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
@@ -151,8 +167,6 @@ nav{
     font-size: 40px;
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
-    padding-bottom:0.5rem;
-    padding-top: 4rem;
 }
 
 .titles{
@@ -235,6 +249,14 @@ button{
     .jumbo-title{
         margin-top: 67rem;
     }
+    
+    #jumbo-category-esperienze{
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        margin-top: 70rem;
+    }
 
     nav{
         font-size: 12px;
@@ -270,10 +292,6 @@ button{
     #jumbo-category{
         padding-top: 5rem;
     }
-
-    .main-image{
-        padding-bottom: 2rem;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
@@ -283,6 +301,14 @@ button{
 
     .jumbo-title{
         margin-top: 29rem;
+    }
+
+    #jumbo-category-esperienze{
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        margin-top: 33rem;
     }
 
     nav{
