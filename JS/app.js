@@ -28,28 +28,24 @@ function prec(){
 setInterval(succ, 10000);
 
 document.addEventListener('DOMContentLoaded', function() {
-  var toggleButton = document.getElementById('toggleButton');
-  var predefinedDiv = document.getElementById('predefinedDiv');
+  var toggleBtn = document.getElementById('toggleBtn');
+  var toggleDivs = document.querySelectorAll('.toggleDiv');
 
-  toggleButton.addEventListener('click', function () {
-    if (predefinedDiv.style.display === 'none') {
-      predefinedDiv.style.display = 'block';
-    } else {
-      predefinedDiv.style.display = 'none';
-    }
+  toggleBtn.addEventListener('click', function () {
+    toggleDivs.forEach(function (div) {
+      div.classList.toggle('visible');
+    });
   });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var toggleButton2 = document.getElementById('toggleButton2');
-  var predefinedDiv2 = document.getElementById('predefinedDiv2');
+  var toggleBtn2 = document.getElementById('toggleBtn2');
+  var toggleDivs2 = document.querySelectorAll('.toggleDiv2');
 
-  toggleButton2.addEventListener('click', function () {
-    if (predefinedDiv2.style.display === 'none') {
-      predefinedDiv2.style.display = 'block';
-    } else {
-      predefinedDiv2.style.display = 'none';
-    }
+  toggleBtn2.addEventListener('click', function () {
+    toggleDivs2.forEach(function (div) {
+      div.classList.toggle('visible');
+    });
   });
 });
 

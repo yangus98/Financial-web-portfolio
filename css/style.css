@@ -139,6 +139,7 @@ nav{
     margin: 5px;
     padding: 5px;
     text-align: justify;
+    display: none;
 }
 
 .toggleDiv.visible {
@@ -149,6 +150,7 @@ nav{
     margin: 5px;
     padding: 5px;
     text-align: justify;
+    display: none;
 }
 
 .toggleDiv2.visible {
@@ -355,14 +357,14 @@ button{
     padding-right: 0.5rem;
 }
 
-#toggleButton, #toggleButton2, #toggleBtn3, #toggleBtn4{
+#toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
     height: 40px;
     width:80px;
 }
 
 @media (max-width: 768px) {
     
-    #toggleButton, #toggleButton2, #toggleBtn3, #toggleBtn4{
+    #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
         height: 20px;
         width:150px;
     }
@@ -430,8 +432,16 @@ button{
     }
 
     nav{
+        display: flex;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        position: fixed;
+        background: white;
+        width:100%;
         font-size: 12px;
-        margin:0;
+        border-bottom: solid 1px #EAEDE1;
+        box-shadow: 0 0 20px 0;
+        z-index: 2;
     }
 
     .menu-voices{
@@ -550,7 +560,6 @@ button{
 
     nav{
         font-size: 20px;
-        margin:0;
     }
 
     .menu-block{
