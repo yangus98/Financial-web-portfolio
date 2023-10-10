@@ -34,7 +34,6 @@ nav{
 
 .home-container{
     width: 100%;
-    height:30vh;
     display: flex;
     margin-top:2rem;
     font-family: 'Libertinus Mono', sans-serif;
@@ -68,7 +67,6 @@ nav{
     margin-top:0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    box-shadow: 6px 7px 14px -8px black;
 }
 
 #jumbo-category-esperienze{
@@ -76,7 +74,8 @@ nav{
     font-size: 40px;
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
-    margin-top: 15rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 #slider{
@@ -107,6 +106,91 @@ nav{
     border-radius: 25px;
     font-size:40px;
     transition: all 0.1s ease-in-out;
+}
+
+.alfasigma-logo{
+    width:220px;
+    height:80px;
+}
+
+.wassermann-logo{
+    width:200px;
+    height:80px;
+}
+
+.h3g-logo{
+    width:190px;
+    height:50px;
+}
+
+.millward-logo{
+    width:250px;
+    height:50px;
+}
+
+.esperienze-logo{
+    text-align:left;
+    padding-top: 1rem;
+}
+
+.toggleDiv {
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.toggleDiv.visible {
+    display: block;
+}
+
+#toggleBtn {
+    cursor: pointer;
+}
+
+.toggleDiv2 {
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.toggleDiv2.visible {
+    display: block;
+}
+
+#toggleBtn2 {
+    cursor: pointer;
+}
+
+.toggleDiv3 {
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.toggleDiv3.visible {
+    display: block;
+}
+
+#toggleBtn3 {
+    cursor: pointer;
+}
+
+.toggleDiv4 {
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.toggleDiv4.visible {
+    display: block;
+}
+
+#toggleBtn4 {
+    cursor: pointer;
 }
 
 .mov-btn{
@@ -158,8 +242,6 @@ button:active{
 .jumbo-title{
     font-family: 'Libertinus Mono', sans-serif;
     text-align: center;
-    margin: 1rem;
-    margin-top: 11rem;
 }
 
 #jumbo-category{
@@ -174,22 +256,23 @@ button:active{
     font-weight: bold;
 }
 
-.corpos{
+.corpo{
     text-align: justify;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;  
 }
 
 .present{
     border: solid #EAEDE1;
     border-radius: 10px;
     padding: 0.5rem;
-    box-shadow: 6px 7px 14px -8px black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .jumbo-title-formazione{
     font-family: 'Libertinus Mono', sans-serif;
     text-align: center;
-    margin: 1rem;
 }
 
 #jumbo-category-formazione{
@@ -242,20 +325,34 @@ button{
 }
 
 @media (max-width: 768px) {
+
     .home-container{
         display: block;
-    }
-
-    .jumbo-title{
-        margin-top: 67rem;
     }
     
     #jumbo-category-esperienze{
         font-weight: bold;
-        font-size: 40px;
+        font-size: 26px;
         font-family: 'JetBrains Mono', sans-serif;
         font-family: 'JetBrains Mono NL', sans-serif;
-        margin-top: 70rem;
+        padding-bottom:0.5rem;
+    }
+
+    #jumbo-category-formazione{
+        font-weight: bold;
+        font-size: 26px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        padding-bottom:0.5rem;
+    }
+    
+    .jumbo-name{
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .jumbo-description{
+        font-size: 15px;
     }
 
     nav{
@@ -292,15 +389,16 @@ button{
     #jumbo-category{
         padding-top: 5rem;
     }
+
+    .esperienze-logo{
+        text-align: center;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
+
     .home-container{
         display: block;
-    }
-
-    .jumbo-title{
-        margin-top: 29rem;
     }
 
     #jumbo-category-esperienze{
@@ -308,7 +406,6 @@ button{
         font-size: 40px;
         font-family: 'JetBrains Mono', sans-serif;
         font-family: 'JetBrains Mono NL', sans-serif;
-        margin-top: 33rem;
     }
 
     nav{
