@@ -393,6 +393,14 @@ button{
     .esperienze-logo{
         text-align: center;
     }
+
+    .main-image{
+        text-align: center;
+    }
+
+    .main-image-setting{
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
