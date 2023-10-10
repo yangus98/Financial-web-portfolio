@@ -10,11 +10,44 @@ nav{
     font-size: 25px;
     border-bottom: solid 1px #EAEDE1;
     box-shadow: 0 0 20px 0;
+    z-index: 2;
 }
 
 *{
     margin:0;
     padding:0;
+}
+
+#predefinedDiv{
+    position: absolute;
+    top: 1600px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+    width: 1470px;
+    height: 670px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono NL', sans-serif;
+    font-size: 13px;
+}
+
+#predefinedDiv2{
+    position: absolute;
+    top: 1360px;
+    left: 940px;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono NL', sans-serif;
+    font-size: 13px;
 }
 
 .menu-block{
@@ -131,10 +164,10 @@ nav{
 .esperienze-logo{
     display:flex;
     justify-content: space-between;
+    padding-bottom: 0.5rem;
 }
 
 .toggleDiv {
-    display: none;
     margin: 5px;
     padding: 5px;
     text-align: justify;
@@ -144,12 +177,7 @@ nav{
     display: block;
 }
 
-#toggleBtn {
-    cursor: pointer;
-}
-
 .toggleDiv2 {
-    display: none;
     margin: 5px;
     padding: 5px;
     text-align: justify;
@@ -157,10 +185,6 @@ nav{
 
 .toggleDiv2.visible {
     display: block;
-}
-
-#toggleBtn2 {
-    cursor: pointer;
 }
 
 .toggleDiv3 {
@@ -363,17 +387,50 @@ button{
     padding-right: 0.5rem;
 }
 
-#toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
+#toggleButton, #toggleButton2, #toggleBtn3, #toggleBtn4{
     height: 40px;
     width:80px;
 }
 
 @media (max-width: 768px) {
     
-    #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
+    #toggleButton, #toggleButton2, #toggleBtn3, #toggleBtn4{
         height: 20px;
         width:150px;
     }
+
+    #predefinedDiv{
+        position: absolute;
+        top: 3490px;
+        left: 195px;
+        transform: translate(-50%, -50%);
+        width: 314px;
+        height: 2200px;
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        font-size: 12px;
+    }
+
+    #predefinedDiv2{
+        position: absolute;
+        top: 3030px;
+        left: 195px;
+        transform: translate(-50%, -50%);
+        width: 314px;
+        height: 430px;
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        font-size: 12px;
+    }
+
 
     .home-container{
         display: block;
@@ -510,9 +567,41 @@ button{
         display: block;
     }
 
-    #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
+    #toggleButton, #toggleButton2, #toggleBtn3, #toggleBtn4{
         height: 40px;
         width: 150px;
+    }
+
+    #predefinedDiv{
+        position: absolute;
+        top: 2650px;
+        left: 410px;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 950px;
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        font-size: 12px;
+    }
+
+    #predefinedDiv2{
+        position: absolute;
+        top: 2330px;
+        left: 490px;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        font-family: 'JetBrains Mono', sans-serif;
+        font-family: 'JetBrains Mono NL', sans-serif;
+        font-size: 12px;
     }
 
     #jumbo-category-esperienze{
