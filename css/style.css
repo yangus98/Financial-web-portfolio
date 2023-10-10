@@ -124,13 +124,14 @@ nav{
 }
 
 .millward-logo{
-    width:250px;
+    width:265px;
     height:80px;
 }
 
 .esperienze-logo{
     display:flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
 }
 
 .toggleDiv {
@@ -441,6 +442,7 @@ button{
 
     .esperienze-logo{
         display:block;
+        padding-top: 1rem;
     }
 
     .main-image{
@@ -511,8 +513,8 @@ button{
     }
 
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
-        height: 40px;
-        width: 150px;
+        height: 20px;
+        width: 200px;
     }
 
     #jumbo-category-esperienze{
@@ -542,32 +544,31 @@ button{
     }
 
     .present{
-        display:flex;
+        display:block;
     }
 
     .alfasigma{
         border-right: none;
-        width: 25%;
-        padding-right: 0;
+        width: 100%;
        }
     
         .wassermann{
         border-right: none;
         padding-left: 0;
-        width: 25%;
+        width: 100%;
         padding-right: 0.5rem;
        }
     
        .h3g{
         border-right: none;
         padding-left: 0;
-        width: 25%;
+        width: 100%;
         padding-right: 0.5rem;
        }
     
        .millward{
         padding-left: 0;
-        width: 25%;
+        width: 100%;
         padding-right: 0;
        }
 
@@ -576,24 +577,31 @@ button{
     }
 
     .alfasigma-logo{
-        width:100%;
+        width:60%;
         height:80px;
+        padding-left:15%;
+        padding-right: 15%;
     }
 
     .wassermann-logo{
-        width:100%;
-        padding-left:0;
-        padding-right: 0;
+        width:60%;
+        padding-left:15%;
+        padding-right: 15%;
+        padding-top: 1rem;
     }
 
     .h3g-logo{
-        width:100%;
-        padding-left:0;
-        padding-right: 0;
+        width:50%;
+        padding-left:20%;
+        padding-right: 20%;
+        padding-top: 1rem;
     }
 
     .millward-logo{
-        width:100%;
+        width:60%;
+        padding-left:15%;
+        padding-right: 15%;
+        padding-top: 1rem;
     }
 }
 
