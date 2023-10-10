@@ -401,6 +401,27 @@ button{
     .main-image-setting{
         margin-left: 0;
     }
+
+    .alfasigma-logo{
+        width:100%;
+        height:80px;
+    }
+
+    .wassermann-logo{
+        width:70%;
+        padding-left:15%;
+        padding-right: 15%;
+    }
+
+    .h3g-logo{
+        width:60%;
+        padding-left:20%;
+        padding-right: 20%;
+    }
+
+    .millward-logo{
+        width:100%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
