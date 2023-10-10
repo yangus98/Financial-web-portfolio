@@ -109,7 +109,7 @@ nav{
 }
 
 .alfasigma-logo{
-    width:220px;
+    width:250px;
     height:80px;
 }
 
@@ -119,18 +119,18 @@ nav{
 }
 
 .h3g-logo{
-    width:190px;
-    height:50px;
+    width:180px;
+    height:80px;
 }
 
 .millward-logo{
     width:250px;
-    height:50px;
+    height:80px;
 }
 
 .esperienze-logo{
-    text-align:left;
-    padding-top: 1rem;
+    display:flex;
+    justify-content: space-between;
 }
 
 .toggleDiv {
@@ -268,6 +268,16 @@ button:active{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
+    display: flex;
+}
+
+.present-formazione{
+    border: solid #EAEDE1;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .jumbo-title-formazione{
@@ -322,6 +332,39 @@ button{
     background:none;
     color: #E4E6DC;
     cursor:pointer;
+}
+
+.alfasigma{
+    border-right: solid;
+    border-color: #E4E6DC;
+    width: 25%;
+    padding-right: 0.5rem;
+}
+
+.wassermann{
+    border-right: solid;
+    border-color: #E4E6DC;
+    padding-left: 0.5rem;
+    width: 25%;
+    padding-right: 0.5rem;
+}
+
+.h3g{
+    border-right: solid;
+    border-color: #E4E6DC;
+    padding-left: 0.5rem;
+    width: 25%;
+    padding-right: 0.5rem;
+}
+
+.millward{
+    padding-left: 0.5rem;
+    width: 25%;
+    padding-right: 0.5rem;
+}
+
+#toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
+    height: 40px;
 }
 
 @media (max-width: 768px) {
@@ -422,6 +465,10 @@ button{
     .millward-logo{
         width:100%;
     }
+
+    .present{
+        display:block;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
@@ -458,6 +505,10 @@ button{
 
     .logo{
         align-items: center;
+    }
+
+    .present{
+        display:block;
     }
 }
 
