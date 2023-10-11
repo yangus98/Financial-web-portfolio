@@ -262,7 +262,11 @@ button:active{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
-    display: flex;
+    display: block;
+}
+
+.esperienze-passate{
+    display:flex;
 }
 
 .present-formazione{
@@ -329,32 +333,33 @@ button{
 }
 
 .alfasigma{
-    border-right: solid;
+    border-bottom: solid;
     border-color: #E4E6DC;
-    width: 25%;
-    padding-right: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    
 }
 
 .wassermann{
     border-right: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
-    width: 25%;
-    padding-right: 0.5rem;
+    width: 33.33%;
+    padding: 0.5rem;
 }
 
 .h3g{
     border-right: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
-    width: 25%;
-    padding-right: 0.5rem;
+    width: 33.33%;
+    padding: 0.5rem;
 }
 
 .millward{
     padding-left: 0.5rem;
-    width: 25%;
-    padding-right: 0.5rem;
+    width: 33.33%;
+    padding: 0.5rem;
 }
 
 #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
@@ -367,6 +372,10 @@ button{
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
         height: 20px;
         width:150px;
+    }
+
+    .esperienze-passate{
+        display:block;
     }
 
     #predefinedDiv{
@@ -558,12 +567,16 @@ button{
         font-family: 'JetBrains Mono NL', sans-serif;
     }
 
+    .esperienze-passate{
+        display:block;
+    }
+
     nav{
         font-size: 20px;
     }
 
     .menu-block{
-        display: inline-flex;
+        display: flex;
         text-align: center;
     }
 
