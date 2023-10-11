@@ -110,12 +110,12 @@ nav{
 }
 
 .alfasigma-logo{
-    width:250px;
+    width:300px;
     height:80px;
 }
 
 .wassermann-logo{
-    width:200px;
+    width:300px;
     height:80px;
 }
 
@@ -125,7 +125,7 @@ nav{
 }
 
 .millward-logo{
-    width:265px;
+    width:300px;
     height:80px;
 }
 
@@ -215,6 +215,24 @@ button:hover{
 
 button:active{
     transform:scale(0.95);
+}
+
+#toggleBtn{
+    margin-right:1rem;
+}
+
+#toggleBtn2{
+    margin-right:0.5rem;
+    margin-top:0.5rem;
+}
+
+#toggleBtn3{
+    margin-right:0.5rem;
+    margin-top:0.5rem;
+}
+
+#toggleBtn4{
+    margin-top:0.5rem;
 }
 
 .jumbo-text{
@@ -333,15 +351,13 @@ button{
 }
 
 .alfasigma{
-    border-bottom: solid;
-    border-color: #E4E6DC;
     width: 100%;
     padding: 0.5rem;
-    
 }
 
 .wassermann{
     border-right: solid;
+    border-top: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
     width: 33.33%;
@@ -350,6 +366,7 @@ button{
 
 .h3g{
     border-right: solid;
+    border-top: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
     width: 33.33%;
@@ -357,6 +374,8 @@ button{
 }
 
 .millward{
+    border-top: solid;
+    border-color: #E4E6DC;
     padding-left: 0.5rem;
     width: 33.33%;
     padding: 0.5rem;
@@ -366,6 +385,8 @@ button{
     height: 40px;
     width:80px;
 }
+
+
 
 @media (max-width: 768px) {
     
