@@ -55,7 +55,6 @@ nav{
     border-radius: 10px;
     padding:0.5rem;
     font-size: 16px;
-    text-align: justify;
     background-color: #EAEDE1;
     box-shadow: 6px 7px 14px -8px black;
 }
@@ -138,7 +137,6 @@ nav{
 .toggleDiv {
     margin: 5px;
     padding: 5px;
-    text-align: justify;
     display: none;
 }
 
@@ -149,7 +147,6 @@ nav{
 .toggleDiv2 {
     margin: 5px;
     padding: 5px;
-    text-align: justify;
     display: none;
 }
 
@@ -161,7 +158,6 @@ nav{
     display: none;
     margin: 5px;
     padding: 5px;
-    text-align: justify;
 }
 
 .toggleDiv3.visible {
@@ -176,7 +172,6 @@ nav{
     display: none;
     margin: 5px;
     padding: 5px;
-    text-align: justify;
 }
 
 .toggleDiv4.visible {
@@ -269,8 +264,8 @@ button:active{
 }
 
 .corpo{
-    text-align: justify;
-    padding-bottom: 0.5rem;  
+    padding-bottom: 0.5rem;
+    text-align:left; 
 }
 
 .present{

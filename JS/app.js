@@ -25,7 +25,7 @@ function prec(){
     document.querySelector("#img_slider img:nth-child(" + corrente + ")").style.display = "block";
 }
 
-setInterval(succ, 10000);
+setInterval(succ, 3000);
 
 document.addEventListener('DOMContentLoaded', function() {
   var toggleBtn = document.getElementById('toggleBtn');
