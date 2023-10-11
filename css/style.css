@@ -18,6 +18,10 @@ nav{
     padding:0;
 }
 
+.toggleDiv, .toggleDiv2, .toggleDiv3, .toggleDiv4{
+    text-align:left;
+}
+
 .menu-block{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
