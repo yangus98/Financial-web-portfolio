@@ -521,7 +521,7 @@ button{
     }
 
     .logo{
-        width: 100px;
+        width: 150px;
         height: 50px;
     }
 
@@ -592,12 +592,9 @@ button{
         display: flex;
         font-family: 'JetBrains Mono', sans-serif;
         font-family: 'JetBrains Mono NL', sans-serif;
-        position: fixed;
-        background: white;
-        width:100%;
-        font-size: 12px;
-        border-bottom: solid 1px #EAEDE1;
-        box-shadow: 0 0 20px 0;
+        position: absolute;
+        width: 100%;
+        font-size: 10px;
         z-index: 2;
     }
 
