@@ -19,17 +19,11 @@
   <body>
 
     <nav>
-      <span class="logo"><a href="/index.html">Raffaele Matacena</a></span>
-      <span class="menu-voices">
-        <span class="menu-block">
-        <a href="/HTML/curriculum.html">
-          <button class="nav-button">Guarda il Curriculum Vitae</button>&nbsp
-        </a>
-        </span>
-
-        <span class="menu-block"><a href="#jumbo-category-esperienze">Esperienze Professionali</a>&nbsp</span>
-        <span class="menu-block"><a href="#jumbo-category-formazione">Formazione</a></span>
-      </span>
+      <div><img class="logo" src="./assets/logo-nav.png" alt="logo"></div>
+      <div class="menu-voices">
+        <div class="menu-block"><a href="/HTML/curriculum.html">Curriculum Vitae completo</a></div>
+        <div class="menu-block"><a href="#jumbo-category-contact">Contattami</a></div>
+      </div>
     </nav>
 
     <div id="slider">
@@ -46,30 +40,19 @@
       </div>
   </div>
 
-    <div class="jumbo-text">
-      <div class="jumbo-name">Raffaele Matacena</div>
-      <div class="jumbo-description">
-        Passione ed esperienza: oltre 19 anni di crescita nel marketing e trade
-        marketing con un focus nel settore Consumer Healthcare
-      </div>
-    </div>
-
     <div class="home-container">
       <div class="main-image">
         <img src="/assets/f63cf491-00d7-4c73-aaee-a7b60641b74b.jpg" class="main-image-setting"/>
       </div>
-      <div class="info-container">
-        <div class="personal-info">
-          <b>Informazioni Personali</b><br />
-          Luogo e data di nascita: ...<br />
-          Indirizzo: ...<br />
-          E-mail: raffaele.matacena@gmail.com<br />
-          Telefono: ...<br />
-          Inquadramento: Dirigente<br />
-          <a href="https://www.linkedin.com/in/raffaele-matacena-8166262/"><img class="icon" src="/assets/174857.png"></a>
-          <a href="mailto:raffaele.matacena@gmail.com"><img class="icon" src="/assets/gmail.png"></a>
+
+      <div class="jumbo-text">
+        <div class="jumbo-name">Raffaele Matacena</div>
+        <div class="jumbo-description">
+          Passione ed esperienza: oltre 19 anni di crescita nel marketing e trade
+          marketing con un focus nel settore Consumer Healthcare
         </div>
       </div>
+
     </div>
 
     <div class="jumbo-title">
@@ -269,5 +252,32 @@
           </div>
         </div>
 </div>
+
+<section id="contact-me">
+  <div id="jumbo-category-contact">Contattami</div>
+  <div class="contact-me-container present-contact-me">
+      <div>
+          <form action="https://formsubmit.co/giuseppebianconi2@gmail.com" method="POST">
+          <div class="input-container">
+              <label for="name">Name</label><input id="name" type="text" name="name" >
+              <label for="email">E-mail</label><input id="email" type="email" name="email" >
+              <label for="message">Message</label><textarea id="message" name="Message"></textarea>
+              <button class="btn-form">Send Message</button>
+          </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+<footer> 
+  <div>
+    <a href="https://www.linkedin.com/in/raffaele-matacena-8166262/"><img class="icon" src="/assets/linkedin.svg"></a>
+    <a href="mailto:raffaele.matacena@gmail.com"><img class="icon" src="/assets/gmail.svg"></a>
+  </div>
+  <div class="credits">
+      <p>&copy; 2023 designed by <strong>Giuseppe Bianconi</strong></p>
+  </div>
+  <a href="#img_slider"><img src="assets/up-arrow.svg" class="icon"></a>  
+</footer>       
   </body>
 </html>
