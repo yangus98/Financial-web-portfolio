@@ -179,11 +179,13 @@ footer {
 #img_slider{
     width:100%;
 }
+
 #img_slider img{
     width:100%;
     height: 80vh;
     display: none;
 }
+
 #img_slider img:nth-child(1){
     display:block;
 }
@@ -511,7 +513,7 @@ button{
     }
 
     .personal-info{
-        width:86%;
+        width: 86%;
         height: 20vh;
     }
 
@@ -522,6 +524,16 @@ button{
     .logo{
         width: 150px;
         height: 50px;
+    }
+
+    #img_slider img{
+        height: 50vh;
+    }
+
+    .mov-btn{
+        top: 25%;
+        left: 5%;
+        width: 90%;
     }
 
     #predefinedDiv{
@@ -709,6 +721,16 @@ button{
         font-size: 40px;
         font-family: 'JetBrains Mono', sans-serif;
         font-family: 'JetBrains Mono NL', sans-serif;
+    }
+
+    #img_slider img{
+        height: 50vh;
+    }
+
+    .mov-btn{
+        top: 25%;
+        left: 5%;
+        width: 90%;
     }
 
     #jumbo-category-formazione{
