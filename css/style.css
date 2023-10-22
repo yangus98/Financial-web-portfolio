@@ -100,7 +100,6 @@ footer {
   
 ::-webkit-scrollbar-thumb {
     background-color: black;
-    border-radius: 1rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
