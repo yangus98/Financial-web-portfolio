@@ -1,17 +1,17 @@
-nav{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
+}
+
+nav{
+    display: flex;
     position: absolute;
     width: 100%;
     font-size: 20px;
     z-index: 2;
     justify-content: space-between;
-}
-
-*{
-    margin: 0;
-    padding: 0;
 }
 
 .logo{
@@ -25,14 +25,10 @@ footer {
     flex-direction: column;
     align-items: center;
     font-size: 20px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
 }
 
 .contact-me-container {
     text-align: center;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     border: solid #EAEDE1;
 }
 
@@ -107,7 +103,7 @@ footer {
 }
 
 .toggleDiv, .toggleDiv2, .toggleDiv3, .toggleDiv4{
-    text-align:left;
+    text-align: left;
 }
 
 .menu-block{
@@ -164,8 +160,6 @@ footer {
 #jumbo-category-esperienze{
     font-weight: bold;
     font-size: 25px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
@@ -213,8 +207,8 @@ footer {
 }
 
 .h3g-logo{
-    width:180px;
-    height:80px;
+    width:150px;
+    height:50px;
 }
 
 .millward-logo{
@@ -272,10 +266,6 @@ footer {
     display: block;
 }
 
-#toggleBtn4 {
-    cursor: pointer;
-}
-
 .mov-btn{
     position: absolute;
     top:45%;
@@ -318,27 +308,7 @@ a img:active{
     text-decoration: underline;
 }
 
-#toggleBtn{
-    margin-right:1rem;
-}
-
-#toggleBtn2{
-    margin-right:0.5rem;
-    margin-top:0.5rem;
-}
-
-#toggleBtn3{
-    margin-right:0.5rem;
-    margin-top:0.5rem;
-}
-
-#toggleBtn4{
-    margin-top:0.5rem;
-}
-
 .jumbo-text{
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     margin-left: 1rem;
 }
 
@@ -352,20 +322,17 @@ a img:active{
 }
 
 .jumbo-title{
-    font-family: 'Libertinus Mono', sans-serif;
     text-align: center;
 }
 
 #jumbo-category{
     font-weight: bold;
     font-size: 40px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
 }
 
 .titles{
     text-align: left;
-    font-weight: bold;
+    font-weight: 1000;
 }
 
 .corpo{
@@ -383,10 +350,6 @@ a img:active{
     display: block;
 }
 
-.esperienze-passate{
-    display:flex;
-}
-
 .present-formazione{
     border: solid #EAEDE1;
     border-radius: 10px;
@@ -397,23 +360,18 @@ a img:active{
 }
 
 .jumbo-title-formazione{
-    font-family: 'Libertinus Mono', sans-serif;
     text-align: center;
 }
 
 #jumbo-category-formazione{
     font-weight: bold;
     font-size: 25px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     padding-bottom:0.5rem;
 }
 
 #jumbo-category-contact{
     font-weight: bold;
     font-size: 25px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     padding-bottom:0.5rem;
     text-align: center;
 }
@@ -433,8 +391,6 @@ a{
 }
 
 button{
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
     background: #E4E6DC;
     border-radius: 5px;
 }
@@ -465,37 +421,30 @@ button{
 }
 
 .wassermann{
-    border-right: solid;
-    border-top: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
-    width: 33.33%;
+    width: 100%;
     padding: 0.5rem;
 }
 
 .h3g{
-    border-right: solid;
-    border-top: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
-    width: 33.33%;
+    width: 100%;
     padding: 0.5rem;
 }
 
 .millward{
-    border-top: solid;
     border-color: #E4E6DC;
     padding-left: 0.5rem;
-    width: 33.33%;
+    width: 100%;
     padding: 0.5rem;
 }
 
 #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
     height: 40px;
-    width:80px;
+    width: 80px;
 }
-
-
 
 @media (max-width: 768px) {
     
@@ -506,10 +455,6 @@ button{
 
     #jumbo-category-contact{
         font-size: 20px;
-    }
-
-    .esperienze-passate{
-        display:block;
     }
 
     .personal-info{
@@ -547,8 +492,6 @@ button{
         border: 2px solid black;
         text-align: center;
         padding: 5px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
         font-size: 12px;
     }
 
@@ -563,11 +506,8 @@ button{
         border: 2px solid black;
         text-align: center;
         padding: 5px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
         font-size: 12px;
     }
-
 
     .home-container{
         display: block;
@@ -576,16 +516,12 @@ button{
     #jumbo-category-esperienze{
         font-weight: bold;
         font-size: 20px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
         padding-bottom:0.5rem;
     }
 
     #jumbo-category-formazione{
         font-weight: bold;
         font-size: 20px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
         padding-bottom:0.5rem;
     }
     
@@ -601,8 +537,6 @@ button{
 
     nav{
         display: flex;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
         position: absolute;
         width: 100%;
         font-size: 10px;
@@ -653,18 +587,18 @@ button{
     }
 
     .alfasigma-logo{
-        width:60%;
+        width: 100%;
         height:80px;
     }
 
     .wassermann-logo{
-        width:60%;
+        width: 100%;
         padding: 0;
         margin:0;
     }
 
     .h3g-logo{
-        width:60%;
+        width:200px;
         padding-left:0;
         padding-right: 0;
     }
@@ -711,6 +645,10 @@ button{
         display: block;
     }
 
+    .jumbo-text{
+        margin-bottom: 1rem;
+    }
+
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
         height: 20px;
         width: 200px;
@@ -719,8 +657,6 @@ button{
     #jumbo-category-esperienze{
         font-weight: bold;
         font-size: 40px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
     }
 
     #img_slider img{
@@ -736,8 +672,6 @@ button{
     #jumbo-category-formazione{
         font-weight: bold;
         font-size: 40px;
-        font-family: 'JetBrains Mono', sans-serif;
-        font-family: 'JetBrains Mono NL', sans-serif;
     }
 
     .jumbo-name{
@@ -758,10 +692,6 @@ button{
     .personal-info{
         width:93.5%;
         height:13vh;
-    }
-
-    .esperienze-passate{
-        display:block;
     }
 
     nav{
@@ -789,58 +719,48 @@ button{
     .alfasigma{
         border-right: none;
         width: 100%;
+        padding-left: 0;
     }
     
     .wassermann{
         border-right: none;
         padding-left: 0;
         width: 100%;
-        padding-right: 0.5rem;
     }
     
     .h3g{
         border-right: none;
         padding-left: 0;
         width: 100%;
-        padding-right: 0.5rem;
     }
     
     .millward{
         padding-left: 0;
         width: 100%;
-        padding-right: 0;
     }
 
     .esperienze-logo{
-        display:block;
+        display: flex;
+        justify-content: space-between;
     }
 
     .alfasigma-logo{
-        width:60%;
-        height:80px;
-        padding-left:15%;
-        padding-right: 15%;
+        width: 500px;
+        height: 100px;
     }
 
     .wassermann-logo{
-        width:60%;
-        padding-left:15%;
-        padding-right: 15%;
-        padding-top: 1rem;
+        width: 500px;
+        height: 150px;
     }
 
     .h3g-logo{
-        width:50%;
-        padding-left:20%;
-        padding-right: 20%;
-        padding-top: 1rem;
+        width: 200px;
+        height: 80px;
     }
 
     .millward-logo{
-        width:60%;
-        padding-left:15%;
-        padding-right: 15%;
-        padding-top: 1rem;
+        width: 500px;
     }
 
     .jumbo-description{
