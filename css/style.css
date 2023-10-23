@@ -253,10 +253,6 @@ footer {
     display: block;
 }
 
-#toggleBtn3 {
-    cursor: pointer;
-}
-
 .toggleDiv4 {
     display: none;
     margin: 5px;
@@ -445,13 +441,14 @@ button{
 #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
     height: 40px;
     width: 80px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
     
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
         height: 20px;
-        width:150px;
+        width: 150px;
     }
 
     #jumbo-category-contact{
