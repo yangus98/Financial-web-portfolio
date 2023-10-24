@@ -83,7 +83,7 @@ footer {
     padding: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     display: block;
 }
 
@@ -121,6 +121,7 @@ footer {
 
 .menu-block a{
     color: white;
+    font-weight: 1000;
 }
 
 .home-container{
@@ -161,7 +162,8 @@ footer {
 #jumbo-category-esperienze{
     font-weight: bold;
     font-size: 25px;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
     padding-top: 0.5rem;
 }
 
@@ -343,7 +345,7 @@ a img:active{
     padding: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     display: block;
 }
 
@@ -353,7 +355,7 @@ a img:active{
     padding: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .jumbo-title-formazione{
@@ -363,13 +365,15 @@ a img:active{
 #jumbo-category-formazione{
     font-weight: bold;
     font-size: 25px;
-    padding-bottom:0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #jumbo-category-contact{
     font-weight: bold;
     font-size: 25px;
-    padding-bottom:0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
     text-align: center;
 }
 
