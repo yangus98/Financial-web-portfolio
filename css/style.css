@@ -518,13 +518,15 @@ button{
     #jumbo-category-esperienze{
         font-weight: bold;
         font-size: 20px;
-        padding-bottom:0.5rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     #jumbo-category-formazione{
         font-weight: bold;
         font-size: 20px;
-        padding-bottom:0.5rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     
     .jumbo-name{
@@ -658,7 +660,11 @@ button{
 
     #jumbo-category-esperienze{
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    #jumbo-category-contact{
+        font-size: 30px;
     }
 
     #img_slider img{
@@ -673,12 +679,12 @@ button{
 
     #jumbo-category-formazione{
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .jumbo-name{
         font-weight: bold;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
     }
 
@@ -767,10 +773,6 @@ button{
 
     .jumbo-description{
         text-align: center;
-    }
-
-    #jumbo-category-contact{
-        font-size: 40px;
     }
 }
 
