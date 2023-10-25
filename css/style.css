@@ -14,10 +14,6 @@ nav{
     justify-content: space-between;
 }
 
-body{
-    overflow: overlay;
-}
-
 .logo{
     width: 300px;
     height: 70px;
@@ -89,7 +85,6 @@ footer {
 
 ::-webkit-scrollbar {
     width: 7px;
-    background: trasparent;
 }
   
 ::-webkit-scrollbar-thumb {
@@ -108,6 +103,7 @@ footer {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
+    font-size: 29px;
     color: white;
 }
 
@@ -438,7 +434,7 @@ button{
     }
 
     .logo{
-        width: 150px;
+        width: 170px;
         height: 50px;
     }
 
@@ -500,6 +496,7 @@ button{
         width: 100%;
         font-size: 10px;
         z-index: 2;
+        justify-content: initial;
     }
 
     .menu-voices{
@@ -512,6 +509,9 @@ button{
         padding:0;
         margin:0;
         text-align: center;
+        font-size: 15px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .logo{
