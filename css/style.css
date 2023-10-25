@@ -14,23 +14,23 @@ nav{
     justify-content: space-between;
 }
 
+body{
+    overflow: overlay;
+}
+
 .logo{
     width: 300px;
     height: 70px;
 }
 
 footer {
-    background-color: #E4E6DC;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
     text-align: center;
-}
-
-.contact-me-container {
-    text-align: center;
-    border: solid #EAEDE1;
+    color: white;
 }
 
 .contact-me-container .input-container {
@@ -45,7 +45,7 @@ footer {
 .contact-me-container .input-container #message, .contact-me-container .input-container #email, .contact-me-container .input-container #name {
     margin-bottom: 0.5rem;
     width: 17rem;
-    background-color: #E4E6DC;
+    background-color: #746862;
     border: none;
     border-bottom: 1px solid #E4E6DC;
     outline: none;
@@ -78,7 +78,7 @@ footer {
 }
 
 .present-contact-me{
-    border: solid #EAEDE1;
+    border: solid #746862;
     border-radius: 10px;
     padding: 0.5rem;
     margin-left: 1rem;
@@ -89,10 +89,7 @@ footer {
 
 ::-webkit-scrollbar {
     width: 7px;
-}
-  
-::-webkit-scrollbar-track {
-    background-color: white;
+    background: trasparent;
 }
   
 ::-webkit-scrollbar-thumb {
@@ -127,8 +124,9 @@ footer {
 .home-container{
     width: 100%;
     display: flex;
-    margin-top: 2rem;
-    font-family: 'Libertinus Mono', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    background-color: #746862;
 }
 
 .main-image-setting{
@@ -148,23 +146,6 @@ footer {
     font-size: 16px;
     background-color: #EAEDE1;
     box-shadow: 6px 7px 14px -8px black;
-}
-
-.personal-info{
-    border: solid #EAEDE1;
-    border-radius: 10px;
-    padding: 0.5rem;
-    font-size: 16px;
-    margin-left: 1rem;
-    width: 324%;
-}
-
-#jumbo-category-esperienze{
-    font-weight: bold;
-    font-size: 25px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-top: 0.5rem;
 }
 
 #slider{
@@ -215,7 +196,7 @@ footer {
 }
 
 .millward-logo{
-    width:300px;
+    width:350px;
     height:80px;
 }
 
@@ -322,6 +303,7 @@ a img:active{
 
 .jumbo-title{
     text-align: center;
+    font-size: 20px;
 }
 
 #jumbo-category{
@@ -340,8 +322,6 @@ a img:active{
 }
 
 .present{
-    border: solid #EAEDE1;
-    border-radius: 10px;
     padding: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -350,8 +330,6 @@ a img:active{
 }
 
 .present-formazione{
-    border: solid #EAEDE1;
-    border-radius: 10px;
     padding: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -360,13 +338,9 @@ a img:active{
 
 .jumbo-title-formazione{
     text-align: center;
-}
-
-#jumbo-category-formazione{
-    font-weight: bold;
-    font-size: 25px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    background-color: #746862;
+    padding-top: 0.5rem;
+    font-size: 20px;
 }
 
 #jumbo-category-contact{
@@ -456,12 +430,7 @@ button{
     }
 
     #jumbo-category-contact{
-        font-size: 20px;
-    }
-
-    .personal-info{
-        width: 86%;
-        height: 20vh;
+        font-size: 25px;
     }
 
     .credits{
@@ -515,27 +484,13 @@ button{
         display: block;
     }
     
-    #jumbo-category-esperienze{
-        font-weight: bold;
-        font-size: 20px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
-    #jumbo-category-formazione{
-        font-weight: bold;
-        font-size: 20px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    
     .jumbo-name{
         font-weight: bold;
         font-size: 35px;
     }
 
     .jumbo-description{
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -641,6 +596,10 @@ button{
     width: 100%;
     padding-right: 0;
    }
+
+   .titles{
+    font-size: 25px;
+   }
 }
 
 @media (min-width: 769px) and (max-width: 821px) {
@@ -658,11 +617,6 @@ button{
         width: 200px;
     }
 
-    #jumbo-category-esperienze{
-        font-weight: bold;
-        font-size: 30px;
-    }
-
     #jumbo-category-contact{
         font-size: 30px;
     }
@@ -675,11 +629,6 @@ button{
         top: 25%;
         left: 5%;
         width: 90%;
-    }
-
-    #jumbo-category-formazione{
-        font-weight: bold;
-        font-size: 30px;
     }
 
     .jumbo-name{
@@ -695,11 +644,6 @@ button{
         margin: auto;
         margin-left: 1rem;
         box-shadow: 6px 7px 14px -8px black;
-    }
-
-    .personal-info{
-        width:93.5%;
-        height:13vh;
     }
 
     nav{
