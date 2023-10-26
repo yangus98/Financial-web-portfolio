@@ -29,6 +29,10 @@ footer {
     color: white;
 }
 
+p{
+    margin-top: 0.5rem;
+}
+
 .contact-me-container .input-container {
     display: flex;
     flex-direction: column;
@@ -103,7 +107,7 @@ footer {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
-    font-size: 29px;
+    font-size: 18px;
     color: white;
 }
 
@@ -496,22 +500,17 @@ button{
         width: 100%;
         font-size: 10px;
         z-index: 2;
-        justify-content: initial;
     }
 
     .menu-voices{
         display: flex;
-        align-items: center;
     }
 
     .menu-block{
-        width: 97px;
-        padding:0;
-        margin:0;
         text-align: center;
-        font-size: 15px;
-        margin-right: 0.3rem;
-        margin-left: 0.3rem;
+        font-size: 10px;
+        width: 80px;
+        margin: 0;
     }
 
     .logo{
@@ -598,7 +597,7 @@ button{
    }
 
    .titles{
-    font-size: 25px;
+    font-size: 20px;
    }
 }
 
