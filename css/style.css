@@ -309,6 +309,7 @@ a img:active{
 .jumbo-name{
     font-weight: bold;
     font-size: 40px;
+    color: #B31312;
 }
 
 .jumbo-description{
@@ -328,6 +329,12 @@ a img:active{
 .titles{
     text-align: left;
     font-weight: 1000;
+}
+
+.formazione-titles{
+    text-align: left;
+    font-weight: 1000;
+    color: #B31312;
 }
 
 .corpo{
