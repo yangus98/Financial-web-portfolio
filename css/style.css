@@ -470,8 +470,13 @@ button{
         height: 50px;
     }
 
+    .mov-btn{
+        width: 90%;
+        
+    }
+
     #img_slider img{
-        height: 30vh;
+        height: 20vh;
     }
 
     #predefinedDiv{
