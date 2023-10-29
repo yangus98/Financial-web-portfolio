@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
+    box-sizing: border-box;
 }
 
 nav{
@@ -442,6 +443,10 @@ button{
     width: 80px;
     cursor: pointer;
     background-color: #d6b98e;
+}
+
+.link-autore{
+    color: white;
 }
 
 @media (max-width: 768px) {
