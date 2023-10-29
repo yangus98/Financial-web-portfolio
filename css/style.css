@@ -4,6 +4,7 @@
     font-family: 'JetBrains Mono', sans-serif;
     font-family: 'JetBrains Mono NL', sans-serif;
     box-sizing: border-box;
+    font-display: swap;
 }
 
 nav{
