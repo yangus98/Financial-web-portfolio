@@ -9,7 +9,7 @@ function succ(){
   
     for(var i = n_img; i > 0; i--){
         document.querySelector("#img_slider img:nth-child(" + i + ")").style.display = "none";
-    }
+      }
     document.querySelector("#img_slider img:nth-child(" + corrente + ")").style.display = "block";
 }
 
