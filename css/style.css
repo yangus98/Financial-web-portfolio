@@ -451,6 +451,10 @@ button{
 }
 
 @media (max-width: 768px) {
+
+    .mov-btn button{
+        display: none;
+    }
     
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
         height: 20px;
@@ -471,12 +475,11 @@ button{
     }
 
     .mov-btn{
-        width: 90%;
-        
+        width: 90%; 
     }
 
     #img_slider img{
-        height: 20vh;
+        height: 25vh;
     }
 
     #predefinedDiv{
