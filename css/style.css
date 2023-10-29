@@ -33,21 +33,27 @@ p{
     margin-top: 0.5rem;
 }
 
+.form-btn{
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #d6b98e;
+}
+
 .contact-me-container .input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
     margin-left: 0.5rem;
-    color: #1c292e;
 }
 
 .contact-me-container .input-container #message, .contact-me-container .input-container #email, .contact-me-container .input-container #name {
     margin-bottom: 0.5rem;
     width: 17rem;
-    background-color: #746862;
+    background-color: #d6b98e;
     border: none;
-    border-bottom: 1px solid #E4E6DC;
+    border-bottom: 1px solid #d6b98e;
     outline: none;
     padding: 0.3rem 0.2rem;
     transition: border-color 0.35s ease-out;
@@ -58,7 +64,7 @@ p{
 }
 
 .contact-me-container .input-container #name:focus {
-    border-color: #E4E6DC;
+    border-color: #d6b98e;
 }
 
 .contact-me-container .input-container #email {
@@ -66,7 +72,7 @@ p{
 }
 
 .contact-me-container .input-container #email:focus {
-    border-color: #E4E6DC;
+    border-color: #d6b98e;
 }
 
 .contact-me-container .input-container #message {
@@ -74,11 +80,11 @@ p{
 }
 
 .contact-me-container .input-container #message:focus {
-    border-color: #E4E6DC;
+    border-color: #d6b98e;
 }
 
 .present-contact-me{
-    border: solid #746862;
+    border: solid #d6b98e;
     border-radius: 10px;
     padding: 0.5rem;
     margin-left: 1rem;
@@ -126,7 +132,7 @@ p{
     display: flex;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    background-color: #746862;
+    background-color: #d6b98e;
 }
 
 .main-image-setting{
@@ -149,11 +155,12 @@ p{
 }
 
 #slider{
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #img_slider{
     width:100%;
 }
@@ -167,16 +174,17 @@ p{
 #img_slider img:nth-child(1){
     display:block;
 }
+
 #slider button{
     width: 40px;
     height: 40px;
-    border:solid #E4E6DC 2px;
+    border:solid white 2px;
     outline:none;
-    color: #E4E6DC;
+    color: white;
     cursor: pointer;
     background: none;
     border-radius: 25px;
-    font-size:40px;
+    font-size: 40px;
     transition: all 0.1s ease-in-out;
 }
 
@@ -204,6 +212,11 @@ p{
     display:flex;
     justify-content: space-between;
     padding-bottom: 1rem;
+}
+
+.formazione-icon{
+    width: 22px;
+    height: 22px;
 }
 
 .toggleDiv {
@@ -264,6 +277,7 @@ p{
 #slider button:hover{
     transform:scale(1.05);
 }
+
 #slider button:active{
     transform:scale(0.95);
 }
@@ -338,7 +352,7 @@ a img:active{
 
 .jumbo-title-formazione{
     text-align: center;
-    background-color: #746862;
+    background-color: #d6b98e;
     padding-top: 0.5rem;
     font-size: 20px;
 }
@@ -420,6 +434,7 @@ button{
     height: 40px;
     width: 80px;
     cursor: pointer;
+    background-color: #d6b98e;
 }
 
 @media (max-width: 768px) {
@@ -612,8 +627,8 @@ button{
     }
 
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
-        height: 20px;
-        width: 200px;
+        height: 25px;
+        width: 170px;
     }
 
     #jumbo-category-contact{
