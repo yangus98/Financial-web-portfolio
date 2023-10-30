@@ -482,6 +482,10 @@ button{
         height: 25vh;
     }
 
+    h1{
+        text-align: center;
+    }
+
     #predefinedDiv{
         position: absolute;
         top: 3490px;
@@ -639,6 +643,10 @@ button{
 
     .jumbo-text{
         margin-bottom: 1rem;
+    }
+
+    h1{
+        text-align: center;
     }
 
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
