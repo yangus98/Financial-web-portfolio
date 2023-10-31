@@ -454,12 +454,12 @@ button{
 
 @media (max-width: 768px) {
 
-    p{
+    p, .titles, ul{
         text-align: center;
     }
 
-    strong{
-        text-align: center;
+    .corpo p{
+        text-align: left;
     }
 
     .mov-btn button{
@@ -473,7 +473,7 @@ button{
 
     .video-setting{
         width: 100%;
-        height: 45vh;
+        height: 40vh;
         object-fit: fill;
     }
     

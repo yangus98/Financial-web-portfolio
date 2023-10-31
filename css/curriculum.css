@@ -1,15 +1,15 @@
+*{
+    overflow: hidden;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono NL', sans-serif;
+}
+
 .back-btn{
     position: absolute;
     top: 20px;
     left: 20px;
-    font-family: 'JetBrains Mono', sans-serif;
-    font-family: 'JetBrains Mono NL', sans-serif;
-    background: white;
+    background: #d6b98e;
     border-radius: 5px;
-}
-
-*{
-    overflow: hidden;
 }
 
 button:hover{
