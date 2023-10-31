@@ -29,6 +29,21 @@ footer {
     font-size: 20px;
     text-align: center;
     color: white;
+    padding-bottom: 0.5rem;
+}
+
+.freccia-su{
+    position: fixed;
+    background-color: #d6b98e;
+    border-radius: 50%;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    margin: 0.5rem;
+}
+
+.designed{
+    font-size: 10px;
 }
 
 p{
