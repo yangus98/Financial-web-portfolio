@@ -191,6 +191,8 @@ p{
 
 .video-setting{
     width: 100%;
+    height: 95vh;
+    object-fit: fill;
 }
 
 .alfasigma-logo{
@@ -452,8 +454,27 @@ button{
 
 @media (max-width: 768px) {
 
+    p{
+        text-align: center;
+    }
+
+    strong{
+        text-align: center;
+    }
+
     .mov-btn button{
         display: none;
+    }
+
+    .video-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .video-setting{
+        width: 100%;
+        height: 45vh;
+        object-fit: fill;
     }
     
     #toggleBtn, #toggleBtn2, #toggleBtn3, #toggleBtn4{
@@ -660,6 +681,12 @@ button{
 
     #img_slider img{
         height: 35vh;
+    }
+
+    .video-setting{
+        width: 100%;
+        height: 60vh;
+        object-fit: fill;
     }
 
     .jumbo-name{
