@@ -34,8 +34,7 @@ footer {
 
 .freccia-su{
     position: fixed;
-    background-color: #d6b98e;
-    border-radius: 50%;
+    background-color: gray;
     right: 0;
     bottom: 0;
     opacity: 0.6;
