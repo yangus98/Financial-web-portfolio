@@ -35,8 +35,8 @@ footer {
 .freccia-su{
     position: fixed;
     background-color: gray;
+    bottom: 50px;
     right: 0;
-    bottom: 0;
     opacity: 0.6;
     margin: 0.5rem;
     width: 50px;
@@ -53,6 +53,10 @@ footer {
 
 p{
     margin-top: 0.5rem;
+}
+
+.policies{
+    display: flex;
 }
 
 .form-btn{
