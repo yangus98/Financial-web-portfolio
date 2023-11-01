@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raffaelematacenawebportfolio.netlify.app/sitemap.xml
