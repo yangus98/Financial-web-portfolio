@@ -48,6 +48,7 @@ footer {
 
 .designed{
     font-size: 10px;
+    margin: 0.3rem;
 }
 
 p{
@@ -64,9 +65,15 @@ p{
 .contact-me-container .input-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    margin-left: 0.5rem;
+}
+
+#contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-me-container .input-container #message, .contact-me-container .input-container #email, .contact-me-container .input-container #name {
@@ -84,27 +91,16 @@ p{
     font-size: 1.2rem;
 }
 
-.contact-me-container .input-container #name:focus {
-    border-color: #d6b98e;
-}
-
 .contact-me-container .input-container #email {
     font-size: 1.2rem;
-}
-
-.contact-me-container .input-container #email:focus {
-    border-color: #d6b98e;
 }
 
 .contact-me-container .input-container #message {
     font-size: 1rem;
 }
 
-.contact-me-container .input-container #message:focus {
-    border-color: #d6b98e;
-}
-
 .present-contact-me{
+    width: 350px;
     border: solid #d6b98e;
     border-radius: 10px;
     padding: 0.5rem;
