@@ -356,6 +356,10 @@ a img:active{
     font-weight: 1000;
 }
 
+.red{
+    color: #B31312;
+}
+
 .formazione-titles{
     text-align: left;
     font-weight: 1000;
@@ -675,7 +679,7 @@ button{
    }
 
    .titles{
-    font-size: 20px;
+    font-size: 18px;
    }
 }
 
