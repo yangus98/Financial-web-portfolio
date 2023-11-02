@@ -483,6 +483,10 @@ button{
         text-align: center;
     }
 
+    .red{
+        font-size: 16px;
+    }
+
     .corpo p{
         text-align: left;
     }
