@@ -491,6 +491,10 @@ button{
         text-align: left;
     }
 
+    .jumbo-text{
+        text-align: center;
+    }
+
     .mov-btn button{
         display: none;
     }
