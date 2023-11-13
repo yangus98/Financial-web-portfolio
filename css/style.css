@@ -572,6 +572,7 @@ button{
 
     .home-container{
         display: block;
+        padding-bottom: 0;
     }
     
     .jumbo-name{
@@ -639,7 +640,7 @@ button{
 
     .alfasigma-logo{
         width: 100%;
-        height:80px;
+        height: 80px;
     }
 
     .wassermann-logo{
@@ -665,7 +666,7 @@ button{
     .alfasigma{
     border-right: none;
     width: 100%;
-    padding-right: 0;
+    padding: 0;
    }
 
     .wassermann{
