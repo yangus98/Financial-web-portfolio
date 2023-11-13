@@ -491,7 +491,7 @@ button{
         text-align: left;
     }
 
-    .jumbo-text{
+    h1{
         text-align: center;
     }
 
@@ -611,8 +611,9 @@ button{
     }
 
     .jumbo-description{
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
     }
 
     #jumbo-category{
