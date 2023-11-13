@@ -479,6 +479,10 @@ button{
 
 @media (max-width: 768px) {
 
+    *{
+        text-align: center;
+    }
+
     p, .titles{
         text-align: center;
     }
