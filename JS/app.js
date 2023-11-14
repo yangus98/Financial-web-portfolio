@@ -27,6 +27,35 @@ function prec(){
 
 setInterval(succ, 5000);
 
+var n_img_smart = 4;
+var corrente_smart = 1;
+
+function succ_smart(){
+    corrente_smart++;
+    if(corrente_smart > n_img_smart){
+        corrente_smart = 1;
+    }
+  
+    for(var j = n_img_smart; j > 0; j--){
+        document.querySelector("#img_slider-smart img:nth-child(" + j + ")").style.display = "none";
+      }
+    document.querySelector("#img_slider-smart img:nth-child(" + corrente_smart + ")").style.display = "block";
+}
+
+function prec_smart(){
+    corrente_smart--;
+    if(corrente_smart == 0){
+        corrente_smart = n_img_smart;
+    }
+  
+    for(var j = n_img_smart; j > 0; j--){
+        document.querySelector("#img_slider-smart img:nth-child(" + j + ")").style.display = "none";
+    }
+    document.querySelector("#img_slider-smart img:nth-child(" + corrente_smart + ")").style.display = "block";
+}
+
+setInterval(succ_smart, 5000);
+
 document.addEventListener('DOMContentLoaded', function() {
   var toggleBtn = document.getElementById('toggleBtn');
   var toggleDivs = document.querySelectorAll('.toggleDiv');

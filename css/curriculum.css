@@ -12,6 +12,14 @@
     border-radius: 5px;
 }
 
+.download-btn{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: #d6b98e;
+    border-radius: 5px;
+}
+
 button:hover{
     transform:scale(1.05);
 }
