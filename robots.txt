@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://raffaele-matacena.vercel.app/sitemap.xml
+Sitemap: https://raffaelematacenawebportfolio.netlify.app/sitemap.xml
 
 User-agent: *
 Disallow: /html/curriculum.html
