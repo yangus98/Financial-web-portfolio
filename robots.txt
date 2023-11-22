@@ -1,4 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://raffaele-matacena.vercel.app/sitemap.xml
+
+User-agent: *
+Disallow: /html/curriculum.html
